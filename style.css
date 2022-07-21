@@ -80,7 +80,18 @@
     background-color: #000000;
     color: #FFFFFF;
 }
-
+.footer{
+    display:flex;
+    width: clamp(35%,65%,75%);
+    justify-content:center;
+    margin: 40px auto;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #1D1D20;
+}
 
 @media only screen and (max-width:830px){
     .choice{
